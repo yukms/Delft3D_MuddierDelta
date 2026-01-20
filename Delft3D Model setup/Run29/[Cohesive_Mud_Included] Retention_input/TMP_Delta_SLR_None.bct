@@ -1,0 +1,27 @@
+#   83                                                                            
+table-name          'T-serie BCT (2,227)..(301,227)   for run: Del'               
+contents            'uniform             ' # at ends A&B of open boundary segment 
+location            '(2,227)..(301,227)  '                                        
+time-function       'non-equidistant'                                             
+reference-time       20080701                                                     
+time-unit           'minutes'                                                     
+interpolation       'linear'                                                      
+parameter           'Time starting at ITDATE = 0.0       ' unit      '[   min  ]' 
+parameter           'water elevation (z)  end A          ' unit      '[   m    ]' 
+parameter           'water elevation (z)  end B          ' unit      '[   m    ]' 
+records-in-table         2                                                        
+          0.0000   0.00000       0.00000                                          
+      17280.0000   0.00000       0.00000                                          
+table-name          'T-serie BCT River                for run: Del'               
+contents            'uniform             ' # at ends A&B of open boundary segment 
+location            'River               '                                        
+time-function       'non-equidistant'                                             
+reference-time       20080701                                                     
+time-unit           'minutes'                                                     
+interpolation       'linear'                                                      
+parameter           'Time starting at ITDATE = 0.0       ' unit      '[   min  ]' 
+parameter           'total discharge (t)  end A          ' unit      '[ m**3/s ]' 
+parameter           'total discharge (t)  end B          ' unit      '[ m**3/s ]' 
+records-in-table         2                                                        
+          0.0000   1000.00       999.999                                          
+      17280.0000   1000.00       999.999                                          

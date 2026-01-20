@@ -1,0 +1,6 @@
+*** Sediment transport relation-------------------------------------------------
+1           -46- Number of transport formula                              IFORM
+#1
+1 -par 1- alpha
+1 -par 2- roughness height
+
