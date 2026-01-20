@@ -1,0 +1,47 @@
+Domain, Checked : Yes       
+     Grid                  : 300x225.grd
+     Grid enclosure        : 300x225.enc
+     Bathymetry            : 300x225whnoise5mcoast.dep
+     Dry points            : none
+     Thin dams             : none
+
+Time frame, Checked : Yes       
+
+Processes, Checked : Yes       
+
+Initial conditions, Checked : Yes       
+
+Boundaries, Checked : Yes       
+     Boundary definitions  : Run_SLR_none.bnd
+     Astronomical flow conditions : none
+     Astronomical corrections : none
+     Harmonic flow conditions : none
+     QH-relation flow conditions : none
+     Time series flow conditions : Run_SLR_none.bct
+     Transport conditions  : Run_SLR_none.bcc
+
+Physical parameters, Checked : Yes       
+     Roughness coefficients : none
+     Hor. viscosity/diffusivity : none
+     Heat flux model data  : none
+     Sediment data         : Run_SLR_none.sed
+     Morphology data       : MORFAC25.mor
+     Uniform wind data     : none
+     Space varying wind data : none
+
+Numerical parameters, Checked : Yes       
+
+Operations, Checked : Yes       
+     Discharge definitions : none
+     Discharge data        : none
+     Dredging and dumping data : none
+
+Monitoring, Checked : Yes       
+     Observation points    : Run_SLR_none.obs
+     Drogues               : none
+     Cross-sections        : Run_SLR_none.crs
+
+Additional parameters, Checked : Yes       
+
+Output, Checked : Yes       
+     Fourier analysis data : none

@@ -1,0 +1,23 @@
+
+********************************************************************************
+***
+*** Deltares, FLOW2D3D Version 6.02.13.63865M, Aug 13 2019, 11:14:35
+***           built from : https://svn.oss.deltares.nl/repos/delft3d/branches/research/Utrecht_University/20171019-Marcio-cross-shore_wave_sand-transport-v1
+***
+***           runid      : Delta_SLR_None
+***           date,time  : 2023-11-30, 13:32:35
+***
+********************************************************************************
+
+*** MESSAGE Using UNESCO density formulation by default 
+ *** full scale free slip calculation for HLES
+*** MESSAGE Momentum solver cyclic method is specified 
+*** MESSAGE DRYFLP and DPSOPT both specified in MD-file. Using DPSOPT: MAX 
+*** MESSAGE Transport solver cyclic-method method is specified 
+*** MESSAGE Reading BC-hydrodynamic file Run_SLR_none.bct 
+*** MESSAGE Reading BC-transport file Run_SLR_none.bcc 
+*** ERROR Read error from file: Run_SLR_none.bcc 
+RECORD:  0.0000000e+000  change1  change1                                       
+ 
+*** End   of tdatom for model: Delta_SLR_None                               ***
+***       2023-11-30 13:32:35                                               ***
