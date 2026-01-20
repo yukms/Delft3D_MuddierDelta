@@ -1,5 +1,6 @@
 % Figure 1
-load forfig1.mat
+
+%% Cautions! Because MSED file is too large I can't upload it!
 % Run 'dataext' from 4th folder (Qsr 4.8) in 'Run 29' folder and run this code
 %range: 22:227 ;   2:301
 
