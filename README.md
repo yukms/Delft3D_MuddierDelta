@@ -9,7 +9,7 @@ This research investigates sediment retention mechanisms in deltaic environments
 ## Repository Structure
 
 ### Data Files
-- **`FieldDelta.xlsx`** - Field data from delta environments
+- **`FieldDelta.xlsx`** - Field data from Korus and Fielding study
 - **`FieldSaito.xlsx`** - Field data from Saito et al. study
 - **`R29.mat`**, **`R30.mat`**, **`R31.mat`**, **`R32.mat`** - Model simulation results for runs 29-32
 - **`estimate_D50_from_bedsus_ratio.m`** - Script to estimate median grain size from bed/suspended sediment ratios
@@ -28,6 +28,8 @@ This research investigates sediment retention mechanisms in deltaic environments
     - Sediment parameters (`.sed`)
     - Morphological settings (`.mor`)
     - Main model definition file (`.mdf`)
+   
+*Run30-Run32 has different sea level rise rates
 
 ### Figure Generation Scripts
 - **`Figure1_Delta evolution/`** - Scripts for visualizing delta morphological evolution
