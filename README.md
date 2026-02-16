@@ -6,13 +6,21 @@ This repository contains MATLAB codes and data for analyzing sediment retention 
 
 This research investigates sediment retention mechanisms in deltaic environments through Delft3D numerical modeling and field data analysis. The code processes model outputs, analyzes sediment transport patterns, and generates figures.
 
+## Model Output Data
+
+The model simulation results (R29.mat - R32.mat) are hosted on Figshare due to file size limitations:
+- **Figshare Dataset**: [https://doi.org/10.6084/m9.figshare.XXXXXXX](https://doi.org/10.6084/m9.figshare.XXXXXXX)
+
+Please download the dataset and place the `.mat` files in the root directory of this repository before running the analysis scripts.
+
 ## Repository Structure
 
 ### Data Files
 - **`FieldDelta.xlsx`** - Field data from delta environments
 - **`FieldSaito.xlsx`** - Field data from Saito et al. study
-- **`R29.mat`**, **`R30.mat`**, **`R31.mat`**, **`R32.mat`** - Model simulation results for runs 29-32
 - **`estimate_D50_from_bedsus_ratio.m`** - Script to estimate median grain size from bed/suspended sediment ratios
+
+**Note:** Model simulation results (R29.mat, R30.mat, R31.mat, R32.mat) are available on Figshare due to file size constraints. Please download the dataset from Figshare and place them in the root directory before running the analysis scripts.
 
 ### Model Setup
 **`Delft3D Model setup/`**
