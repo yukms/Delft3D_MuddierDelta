@@ -9,7 +9,7 @@ This research investigates sediment retention mechanisms in deltaic environments
 ## Model Output Data
 
 The model simulation results (R29.mat - R32.mat) are hosted on Figshare due to file size limitations:
-- **Figshare Dataset**: [https://doi.org/10.6084/m9.figshare.XXXXXXX](https://doi.org/10.6084/m9.figshare.XXXXXXX)
+- **Figshare Dataset**: [https://doi.org/10.6084/m9.figshare.31282870](https://doi.org/10.6084/m9.figshare.31282870)
 
 Please download the dataset and place the `.mat` files in the root directory of this repository before running the analysis scripts.
 
