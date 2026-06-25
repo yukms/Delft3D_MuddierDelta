@@ -10,7 +10,7 @@ AvgTopsetD_saito = T(2:19, 8);     % Observed Topset Grain size [mm]
 Area_saito = T(2:19, 7);           % Delta Area [km2]
 
 % Parameters
-u_star_ref = 0.1; h_ref = 3.0;
+u_star_ref = 0.05; h_ref = 10.0;
 
 % Calculate Estimated D50
 D50_input_saito = zeros(length(ratio1), 1);
@@ -19,8 +19,8 @@ for i = 1:length(ratio1)
 end
 
 % Calculate Uncertainty Band
-u_star_min = 0.05; u_star_max = 0.2;
-h_min = 1; h_max = 10;
+u_star_min = 0.01; u_star_max = 0.1;
+h_min = 5; h_max = 20;
 R_range = logspace(-4, 1, 300); 
 
 D50_ref = zeros(size(R_range));
