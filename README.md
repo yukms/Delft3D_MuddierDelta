@@ -1,4 +1,4 @@
-DOI Updated : 10.5281/zenodo.18319314
+DOI Updated : 10.5281/zenodo.18663857
 
 This repository contains MATLAB codes and data for analyzing sediment retention processes in river deltas using numerical modeling and field data comparisons.
 
@@ -52,7 +52,7 @@ Please download the dataset and place the `.mat` files in the root directory of 
   - `Run_29/`, `Run_30/`, `Run_31/`, `Run_32/` - Processed advection length data for each model run
 
 - **`Figure4_Total retention/`**
-  - `Figure4_Total_retention.m` - Total sediment retention analysis
+  - `Figure4.m` - Total sediment retention analysis
 
 - **`Figure5_Muddier delta/`**
   - `Figure5_Muddier_delta.m` - Analysis of mud-rich delta systems
