@@ -1,4 +1,4 @@
-DOI Updated : 10.5281/zenodo.18663857
+DOI Updated : 10.5281/zenodo.18319314
 
 This repository contains MATLAB codes and data for analyzing sediment retention processes in river deltas using numerical modeling and field data comparisons.
 
@@ -8,10 +8,9 @@ This research investigates sediment retention mechanisms in deltaic environments
 
 ## Model Output Data
 
-The model simulation results (R29.mat - R32.mat) are hosted on Figshare due to file size limitations:
-- **Figshare Dataset**: [https://doi.org/10.6084/m9.figshare.31282870](https://doi.org/10.6084/m9.figshare.31282870)
+The model simulation results (`R29.mat` - `R32.mat`) are included in this repository under the `Model results/` directory.
 
-Please download the dataset and place the `.mat` files in the root directory of this repository before running the analysis scripts.
+Please place these `.mat` files in the root directory of this repository (or add the `Model results/` directory to your MATLAB path) before running the analysis scripts.
 
 ## Repository Structure
 
@@ -20,7 +19,7 @@ Please download the dataset and place the `.mat` files in the root directory of 
 - **`FieldSaito.xlsx`** - Field data from Saito et al. study
 - **`estimate_D50_from_bedsus_ratio.m`** - Script to estimate median grain size from bed/suspended sediment ratios
 
-**Note:** Model simulation results (R29.mat, R30.mat, R31.mat, R32.mat) are available on Figshare due to file size constraints. Please download the dataset from Figshare and place them in the root directory before running the analysis scripts.
+**Note:** Model simulation results (`R29.mat`, `R30.mat`, `R31.mat`, `R32.mat`) are located in the `Model results/` directory. Please place them in the root directory (or add the `Model results/` directory to your MATLAB path) before running the analysis scripts.
 
 ### Model Setup
 **`Delft3D Model setup/`**
